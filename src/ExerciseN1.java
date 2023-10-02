@@ -12,8 +12,8 @@ public class ExerciseN1 {
         for (int i =1;i < 20; i++) {
             numeriInteri[i] = i + 1;
         }
-        System.out.println(Moltiplica(numeriInteri));
-        System.out.println(Concatena("Numero :",numeriInteri));
+        System.out.println(moltiplica(numeriInteri));
+        System.out.println(concatena("Numero :",numeriInteri));
         System.out.println(pushNumber3Position(stringArray,"vediamo"));
 
 
@@ -22,7 +22,7 @@ public class ExerciseN1 {
 
     }
 
-    public static int Moltiplica(int[]Numero1){
+    public static int moltiplica(int[]Numero1){
 
         double random1= Math.random()*19;
         double random2= Math.random()*19;
@@ -34,7 +34,7 @@ public class ExerciseN1 {
     }
 
 
-    public static String Concatena(String stringa, int[] Numero){
+    public static String concatena(String stringa, int[] Numero){
         double random1= Math.random()*19;
 
         int randomNumber1 = (int) Math.floor(random1)+1;
